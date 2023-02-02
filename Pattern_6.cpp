@@ -16,4 +16,5 @@ void nNumberTriangle(int n) {
         }
         cout<<endl;
     }
+  
 }
