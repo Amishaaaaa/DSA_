@@ -5,6 +5,7 @@
    A B C
    A B C D
 */
+
 #include<bits/stdc++.h>
 using namespace std;
 
