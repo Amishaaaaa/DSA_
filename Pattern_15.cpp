@@ -19,7 +19,7 @@ void nLetterTriangle(int n) {
         cout<<endl;
     }
 }
-
+//OR
 #include<bits/stdc++.h>
 using namespace std;
 

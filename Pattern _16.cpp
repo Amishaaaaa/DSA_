@@ -23,6 +23,7 @@ void alphaRamp(int n) {
     }
 }
 
+//OR
 
 #include<bits/stdc++.h>
 using namespace std;
