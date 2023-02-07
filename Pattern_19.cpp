@@ -17,6 +17,8 @@ using namespace std;
 
 void symmetry(int n) {
     // Write your code here.
+   
+    //Upper Half
     int inis=0;
     for(int i=0;i<n;i++){
         for(int j=1;j<=n-i;j++){
@@ -31,6 +33,8 @@ void symmetry(int n) {
         inis+=2;
         cout<<endl;
     }
+   
+    //Lower Half
     int ins=inis;
     for(int i=1;i<=n;i++){
         for(int j=1;j<=i;j++){
