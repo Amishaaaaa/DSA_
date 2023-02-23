@@ -1,6 +1,8 @@
-//Print Name n no of time
+
 #include<iostream>
 using namespace std;
+
+//Print Name n no of time
 
 void func(int i,int n){
   if(i>n){
