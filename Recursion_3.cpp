@@ -1,7 +1,7 @@
-//Print from n-1 using recursion
+
 #include<bits/stdc++.h>
 using namespace std;
-
+//Print from n-1 using recursion
 //Soln-1
 void funct(int n){
     if(n<1){
