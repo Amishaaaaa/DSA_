@@ -1,6 +1,7 @@
-//Palindrome check
 #include<bits/stdc++.h>
 using namespace std;
+
+//Palindrome check
 
 bool f(int i,string &s,int n){
     if(i>=n/2){
