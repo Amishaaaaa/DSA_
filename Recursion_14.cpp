@@ -9,6 +9,7 @@ int printS(int ind,int s,int sum,int arr[],int n){
         if(s==sum){
             return 1;
         }
+        //Condition not satisfied
         else return 0;
     }
     
