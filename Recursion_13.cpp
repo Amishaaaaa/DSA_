@@ -2,6 +2,7 @@
 using namespace std;
 
 //Print only one subsequenc whose sum is K
+
 bool printS(int ind,vector<int> &ds,int s,int sum,int arr[],int n){
     if(ind==n){
         if(s==sum){
