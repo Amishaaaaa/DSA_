@@ -2,6 +2,7 @@
 using namespace std;
 
 //Print count of no of subsequences whose sum is k
+
 int printS(int ind,int s,int sum,int arr[],int n){
     if(ind==n){
         if(s==sum){
