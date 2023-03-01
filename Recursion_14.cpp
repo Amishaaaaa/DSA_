@@ -5,6 +5,7 @@ using namespace std;
 
 int printS(int ind,int s,int sum,int arr[],int n){
     if(ind==n){
+        //Condition Satisfied
         if(s==sum){
             return 1;
         }
