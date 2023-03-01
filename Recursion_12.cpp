@@ -1,6 +1,8 @@
 #include<bits/stdc++.h>
 using namespace std;
-//Prnt the subsequence whose sum is k
+
+//Prnt all the subsequence whose sum is k
+
 void printS(int ind,vector<int> &ds,int s,int sum,int arr[],int n){
     if(ind==n){
         if(s==sum){
