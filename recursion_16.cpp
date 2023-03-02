@@ -2,6 +2,7 @@
 #include<bits/stdc++.h>
 
 using namespace std;
+
 // print values of array whose sum is k
 //arr[2,3,6,7] target =7
 //ans=[[2,2,3],[7]]
