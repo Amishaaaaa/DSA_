@@ -3,13 +3,21 @@ using namespace std;
 
 //Print count of no of subsequences whose sum is k(optimize code only when array contains positive numbers)
 int printS(int ind,int s,int sum,int arr[],int n){
+    
     //Condition not satistied
     //strictly done if array contains only positive values
+    
     if(s>sum)return 0; 
     if(ind==n){
+        
+        //Condition Satisfied 
+        
         if(s==sum){
             return 1;
         }
+        
+        //Condition not satisfied
+        
         else return 0;
     }
     
