@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-//Character Hashing
+//Character Hashing(lowercasw Alphabets)
 
 int main(){
     string s;
