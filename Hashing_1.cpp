@@ -9,6 +9,9 @@ int main(){
     for(int i=0;i<n;i++){
         cin>>arr[i];
     }
+    
+    //Precompute
+    
     int hash[13]={0};
     for(int i=0;i<n;i++){
         hash[arr[i]]+=1;
@@ -18,6 +21,7 @@ int main(){
     while(q--){
         int number ;
         cin>>number;
+        //fetch
         cout<<hash[number]<<endl;
     }
     return 0;
