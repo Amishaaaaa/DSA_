@@ -7,7 +7,7 @@ int main(){
     string s;
     cin>>s;
 
-
+     //Precompute
     int hash[256]={0};
     for(int i=0;i<s.size();i++){
         hash[s[i]]++;
