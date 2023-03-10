@@ -19,6 +19,7 @@ int main(){
     while(q--){
         char c;
         cin>>c;
+        //Fetch
         cout<<hash[c]<<endl;
     }
     return 0;
