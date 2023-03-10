@@ -1,6 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+//Hashing for all the characters
 
 int main(){
     string s;
