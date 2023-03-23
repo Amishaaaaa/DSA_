@@ -1,12 +1,13 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+//Hashing for all the characters
 
 int main(){
     string s;
     cin>>s;
 
-
+     //Precompute
     int hash[256]={0};
     for(int i=0;i<s.size();i++){
         hash[s[i]]++;
@@ -18,6 +19,7 @@ int main(){
     while(q--){
         char c;
         cin>>c;
+        //Fetch
         cout<<hash[c]<<endl;
     }
     return 0;
