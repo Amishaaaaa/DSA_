@@ -8,7 +8,6 @@ using namespace std;
 
 
 //Approach 2 -Recursive Method
-
 struct node {
   int data;
   struct node * left, * right;
