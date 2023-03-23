@@ -6,6 +6,8 @@ using namespace std;
 //Root->Left->Right
 
 
+//Approach 1-Iterative method
+
 struct node {
   int data;
   struct node * left, * right;
