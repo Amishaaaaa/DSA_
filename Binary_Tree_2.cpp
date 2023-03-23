@@ -7,31 +7,20 @@ using namespace std;
 //Root->Left->Right
 
 
+//Approach 2 -Recursive Method
 
 struct node {
   int data;
   struct node * left, * right;
 };
 
-vector < int > preOrderTrav(node * curr) {
-  vector < int > preOrder;
+void preOrderTrav(node * curr, vector < int > & preOrder) {
   if (curr == NULL)
-    return preOrder;
+    return;
 
-  stack < node * > s;
-  s.push(curr);
-
-  while (!s.empty()) {
-    node * topNode = s.top();
-    preOrder.push_back(topNode -> data);
-    s.pop();
-    if (topNode -> right != NULL)
-      s.push(topNode -> right);
-    if (topNode -> left != NULL)
-      s.push(topNode -> left);
-  }
-  return preOrder;
-
+  preOrder.push_back(curr -> data);
+  preOrderTrav(curr -> left, preOrder);
+  preOrderTrav(curr -> right, preOrder);
 }
 
 struct node * newNode(int data) {
@@ -57,7 +46,7 @@ int main() {
   root -> right -> right -> right = newNode(10);
 
   vector < int > preOrder;
-  preOrder = preOrderTrav(root);
+  preOrderTrav(root, preOrder);
 
   cout << "The preOrder Traversal is : ";
   for (int i = 0; i < preOrder.size(); i++) {
