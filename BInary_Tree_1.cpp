@@ -6,7 +6,7 @@ using namespace std;
 //Preorder Traversal
 //Root->Left->Right
 
-
+//Approach-1 Iteravtive Method
 
 struct node {
   int data;
