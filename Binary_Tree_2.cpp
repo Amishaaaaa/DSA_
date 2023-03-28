@@ -45,6 +45,7 @@ int main() {
   root -> right -> right -> left = newNode(9);
   root -> right -> right -> right = newNode(10);
 
+  
   vector < int > preOrder;
   preOrderTrav(root, preOrder);
 
