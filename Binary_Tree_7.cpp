@@ -2,8 +2,9 @@
 
 using namespace std;
 
-//Postorder Traversal
-//Approach -using 1 Stack
+// Postorder Traversal (left->right->root)
+
+// Approach - Using 1 Stack
 
 struct node {
   int data;
