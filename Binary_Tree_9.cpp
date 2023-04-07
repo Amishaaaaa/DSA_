@@ -3,7 +3,10 @@
 using namespace std;
 
 
+
 // Preorder ,inorder,postorder in one traversal
+
+
 
 struct node {
   int data;
